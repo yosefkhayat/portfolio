@@ -99,14 +99,38 @@ header{
 #Greeting2{
     font-size: 1.54em;
 }
-@media screen and (max-width:600px){
-    
+@media screen and (min-width:600px){
+    #menu{
+        display: none;
+    }
+    #nav-list{
+        float: right;
+        margin:0;
+        max-width: 1300px;
+        box-sizing: border-box;
+        padding-right: 100px;
+    }
+    #nav-list li{
+        margin-right: 35px;
+        float: right;
+        padding-top:10px;   
+        box-sizing: border-box;
+
+    }
+    #nav{
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+        width:100%;
+        z-index: -1;
+        margin:0;
+    }
+    .nav-link:hover{
+        text-decoration: underline;
+    }
 }
 @media screen and (min-width:1300px){
     header{
         width:1300px;
     }
-    .nav-link:hover{
-        text-decoration: underline;
-    }
+    
 }
