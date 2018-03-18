@@ -13,6 +13,7 @@ header{
     margin-left: auto; 
     margin-right: auto;
     z-index: 1; 
+    
 }
 #logo{
     position: inherit;
@@ -103,6 +104,17 @@ header{
     #menu{
         display: none;
     }
+    #nav{
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+        width:100%;
+        z-index: -1;
+        margin:0;
+        
+    }
+    .nav-link:hover{
+        text-decoration: underline;
+    }
     #nav-list{
         float: right;
         margin:0;
@@ -115,17 +127,6 @@ header{
         float: right;
         padding-top:10px;   
         box-sizing: border-box;
-
-    }
-    #nav{
-        -webkit-transform: translate(0, 0);
-        transform: translate(0, 0);
-        width:100%;
-        z-index: -1;
-        margin:0;
-    }
-    .nav-link:hover{
-        text-decoration: underline;
     }
 }
 @media screen and (min-width:1300px){
