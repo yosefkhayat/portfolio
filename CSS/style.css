@@ -4,14 +4,16 @@ body,html{
     padding:0;
 }
 header{
-    position: absolute;
+    position: fixed;
     width: 100%;
     background: #1D1D3c;
     left: 0; 
     right: 0; 
     margin-left: auto; 
-    margin-right: auto; 
+    margin-right: auto;
+    z-index: 1; 
 }
+
 #logo{
     position: inherit;
     padding:5px 20px 0 10px;
@@ -53,6 +55,26 @@ a{
 a:hover{
     text-decoration: underline;
 }
+.aa{
+    display: block;
+    
+}
+.image{
+    margin: 0 auto;
+    background-color: #7D4CAC;
+    background-image: url(https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/1081176/1160/773/m1/fpnw/wm1/1-.jpg?1457878073&s=541e3a6d63caf077674adc42e019bb70);
+    height: 400px;
+    max-width: 1300px;
+    background-attachment: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    opacity: .3;
+
+
+}
+
 @media screen and (min-width:1300px){
     header{
         width:1300px;
