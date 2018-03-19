@@ -180,10 +180,22 @@ img{
         margin:0 auto;
         max-width:1300px;
     }
+    #projectes-container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .proj{
+        width:40%;
+        
+    }
 }
 @media screen and (min-width:1300px){
     header{
         width:1300px;
     }
-    
+    .proj{
+        width:30%;
+        
+    }
 }
