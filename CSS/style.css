@@ -1,3 +1,4 @@
+@import url(http://weloveiconfonts.com/api/?family=brandico);
 body,html{
     font-family: 'Kaushan Script', 'Pacifico', cursive;
     margin: 0;
@@ -114,7 +115,7 @@ header{
     text-align: center;
     background: #eee;
     padding-top:20px;
-    min-height: 600px;
+    min-height: 550px;
 }
 h1{
     margin-top:0;
@@ -153,6 +154,7 @@ img{
     width:100%;
     text-align: center;
     padding-top:20px;
+    min-height: 350px;
 }
 .height1{
     height: 34px;
@@ -173,13 +175,28 @@ img{
 .btn{
     display: inline-block;
     padding: 6px 12px;
-    margin-bottom: 0;
+    margin-top:20px;
+    margin-bottom: 20px;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.42857143;
     text-align: center;
-    border: 1px solid transparent;
+    border: 1px solid lightgray;
     border-radius: 4px;
+}
+footer {
+    margin: 0 auto;
+    background: #1D1D3c;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    color: #F4DAF7;
+}
+.icon{
+    font-family: 'brandico', sans-serif;
+    background: transparent;
+    color:#F4DAF7;
+    text-decoration: none;
+
 }
 @media screen and (min-width:600px){
     #menu{
@@ -242,6 +259,9 @@ img{
 @media screen and (min-width:1300px){
     header{
         width:1300px;
+    }
+    footer{
+        width: 1300px;
     }
     .proj{
         width:30%;
