@@ -3,6 +3,7 @@ body,html{
     margin: 0;
     padding:0;
     position: relative;
+    background-color: #f5f5f5;
 }
 header{
     position: fixed;
@@ -100,6 +101,22 @@ header{
 #Greeting2{
     font-size: 1.54em;
 }
+#about{
+    text-align: center;
+    width:100%;
+    background: #1D1D3c;
+    height: 400px;
+    color: #F4DAF7;
+}
+h1{
+    margin-top:0;
+    padding-top:100px;
+    text-decoration: underline;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
 @media screen and (min-width:600px){
     #menu{
         display: none;
@@ -127,6 +144,11 @@ header{
         float: right;
         padding-top:10px;   
         box-sizing: border-box;
+    }
+    
+    #about{
+        margin:0 auto;
+        max-width:1300px;
     }
 }
 @media screen and (min-width:1300px){
