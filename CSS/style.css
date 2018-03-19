@@ -181,10 +181,6 @@ img{
     border: 1px solid transparent;
     border-radius: 4px;
 }
-textarea{
-    height: 100px;
-}
-
 @media screen and (min-width:600px){
     #menu{
         display: none;
@@ -227,6 +223,21 @@ textarea{
         width:40%;
         
     }
+    #contact-form{
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #left{
+        width:50%;
+    }
+    #right{
+        width: 50%;
+    }
+    textarea{
+        height: 85%;
+    }
+    
 }
 @media screen and (min-width:1300px){
     header{
