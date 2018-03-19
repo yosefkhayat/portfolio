@@ -114,6 +114,7 @@ header{
     text-align: center;
     background: #eee;
     padding-top:20px;
+    min-height: 600px;
 }
 h1{
     margin-top:0;
@@ -147,6 +148,43 @@ img{
     opacity: 0.4;
     margin-bottom: 30px;
 }
+#contact{
+    background: rgba(234,225,213,0.3);
+    width:100%;
+    text-align: center;
+    padding-top:20px;
+}
+.height1{
+    height: 34px;
+}
+.form-desgin{
+    margin:0 auto;
+    margin-bottom: 15px;
+    display: block;
+    width: 80%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.btn{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+textarea{
+    height: 100px;
+}
+
 @media screen and (min-width:600px){
     #menu{
         display: none;
